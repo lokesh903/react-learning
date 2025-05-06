@@ -31,8 +31,9 @@ It includes three example cases:
 1️⃣ Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/react-usecallback-demo.git
-cd react-usecallback-demo
+git clone https://github.com/lokesh903/react-learning.git
+cd useCallbackTutorial
+cd untick-tick-app
 ```
 
 2️⃣ Install dependencies:
