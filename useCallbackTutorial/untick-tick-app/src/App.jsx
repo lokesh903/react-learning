@@ -10,7 +10,7 @@ function App() {
   // ✅ Correct: needed because passed to React.memo child
   const toggleTick = useCallback(() => {
     setIsTicked(prev => !prev);
-  }, [isTicked]);
+  },[]);
 
   // ⚠ Misuse: adding useCallback where NOT needed (small inline function, no prop passing)
   const increment = useCallback(() => {

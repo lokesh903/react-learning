@@ -14,10 +14,7 @@ const heavyComputation = () => {
 const CorrectButton = React.memo(({ onToggle }) => {
   console.log('✅ Child <CorrectButton> re-rendered');
 
-  useEffect(() => {
-    const result = heavyComputation();
-    console.log('Heavy function result (first 5 sorted numbers):', result);
-  });
+  heavyComputation();
 
   return <button onClick={onToggle}>Correct Button</button>;
 });
